@@ -246,6 +246,11 @@ public class Main {
             }
 
             game.printBoard();
+
+            if(game.checkWin())
+            {
+                break;
+            }
         }
 
     }
